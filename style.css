@@ -88,6 +88,7 @@ flex-direction: row;
 .content h2{
   margin-bottom: 20px;
 }
+
 .content p{
  font-size: 18px;
  padding: 2px;
@@ -212,6 +213,10 @@ textarea{
   1px 3px 1px #919191,
   1px 4px 1px #919191;
   
+}
+
+input:hover, select:hover, textarea:hover{
+  background-color: rgb(193, 205, 215);
 }
 button {
   margin: 5px;

@@ -28,34 +28,35 @@
   <!--navbar end-->
   
   <div class="contact-container">
-  <form action="" class="form">
+  <form action="" class="form" onsubmit="submitData()">
     <h2>GET IN TOUCH</h2>
     <div class="name">
-    <label>Name</label>
-    <input />
+    <label for="name">Name</label>
+    <input id="name"/>
     </div>
-    <div class="email">
-    <label>Email</label>
-    <input />
+    <div class="email" >
+    <label for="email">Email</label>
+    <input id="email"/>
     </div>
-    <div class="Phone">
-    <label>Phone Number</label>
-    <input />
+    <div class="Phone" >
+    <label for="Phone" >Phone Number</label>
+    <input id="Phone"/>
     </div>
-    <div class="subject">
-    <label>subject</label>
-    <select>
-      <option>Fullstack Developer</option>
-      <option>Front End Developer</option>
-      <option>Back End Developer</option>
+    <div class="subject" >
+    <label for="subject">subject</label>
+    <select id="input-subject">
+      <option value="Fullstack Developer">Fullstack Developer</option>
+      <option value="Front End Developer">Front End Developer</option>
+      <option value="Back End Developer">Back End Developer</option>
     </select>
     </div>
-    <div class="message">
-    <label>Your Message</label>
-    <textarea></textarea>
+    <div class="message" >
+    <label for="message">Your Message</label>
+    <textarea id="message"></textarea>
     </div>
-      <button>Submit</button>
+      <button type="button" onclick="submitData()">Submit</button>
   </form>
   </div>
+  <script src="js/contact.js"></script>
 </body>
 </html>
