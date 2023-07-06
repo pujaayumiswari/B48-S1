@@ -51,7 +51,4 @@ console.log(objectData)
   console.log(subject);
   console.log(message);
   
-  
-  
-  
 }
